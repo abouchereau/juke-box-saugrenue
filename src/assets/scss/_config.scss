@@ -83,8 +83,9 @@ $gr-logo-size: 2.5em;
 // Colors
 //----------------------------------------------
 $color-blue:      #263b91;
-$color-alpha:     $color-blue;
-$color-alpha-light: #ebf0ff;  //lighten($color-alpha, 60); //#f3effc;
+$color-red:       #8b1a20;
+$color-alpha:     $color-red;
+$color-alpha-light: #E4B348;//lighten($color-alpha, 60); //#f3effc;
 $color-alpha-dark:  darken($color-alpha, 10);
 $color-delta:       darken($color-alpha, 0); // #dfe6ff;
 $color-white:       #fff;
