@@ -25,7 +25,23 @@ const Scenes = (() => {
      * Init
      */
     init(){
-      this.bindEvents()
+      this.bindEvents();
+
+      //on passe direct l'intro
+        html.classList.add('welcome-is-exiting')
+
+        var gooTransition = anime({
+            targets: goo,
+            duration: 1700,
+            easing: 'easeInOutSine',
+            d: goo.getAttribute('pathdata:id')
+        })
+
+        setTimeout(function(){
+            window.scrollTo(0, 0)
+            html.classList.remove('welcome-is-entered')
+            scenePlaylist.classList.add('is-entered')
+        }, 400)
     },
 
     /**

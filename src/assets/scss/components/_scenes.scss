@@ -79,7 +79,7 @@ html.welcome-is-entered body {
 
 .welcome-is-exiting  #scene-welcome{
   transform: translateY(-200vh);
-  transition: transform 1s 0.4s ease;
+  transition: transform 6s 0.4s ease;
 
   .intro__main {
     opacity: 0;
