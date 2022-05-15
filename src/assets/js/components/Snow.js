@@ -18,8 +18,8 @@ const Snow = (() => {
 		},
 
 		bindEvents() {
-			this.fall()
-			this.kill()
+			//this.fall()
+			//this.kill()
 		},
 
 		/**

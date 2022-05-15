@@ -1,580 +1,1250 @@
 let peeps_data = [
     {
-        "first_name": "Abdul ",
-        "last_name": "Sharif",
-        "role": "Campaign Manager",
-        "song_title": "What Christmas Means to Me",
-        "song_artist": "CeeLo Green",
-        "song_url": "Abdul-S-What-Christmas-Means-To-Me.mp3",
-        "avatar": "abdul-sharif.jpg"
+        "song_artist": "Choro de Aksak",
+        "song_album": "Zéphyr - 2015",
+        "song_title": "Mixing",
+        "song_url": "Choro de Aksak/Zéphyr - 2015/01 Mixing (feat. Bongo Ben, Aldo Zein, Samuel Durand).flac",
+        "avatar": "Choro de Aksak/Zéphyr - 2015/cover.jpg"
     },
     {
-        "first_name": "Althea ",
-        "last_name": "Conyers Achem",
-        "role": "PR Account Manager",
-        "song_title": "Dance of the Sugar Plum Fairy",
-        "song_artist": "Pyotr Ilyich Tchaikovsky",
-        "song_url": "Althea-C-A-Dance-Of-The-Sugar-Plum-Fairy.mp3",
-        "avatar": "althea-conyers-achem.jpg"
+        "song_artist": "Choro de Aksak",
+        "song_album": "Zéphyr - 2015",
+        "song_title": "Nordestina",
+        "song_url": "Choro de Aksak/Zéphyr - 2015/02 Nordestina (feat. Bongo Ben, Aldo Zein, Samuel Durand).flac",
+        "avatar": "Choro de Aksak/Zéphyr - 2015/cover.jpg"
     },
     {
-        "first_name": "Andrew",
-        "last_name": "Hulen",
-        "role": "Programmatic Manager",
-        "song_title": "Last Christmas",
-        "song_artist": "Wham!",
-        "song_url": "Andrew-H-Last-Christmas.mp3",
-        "avatar": "andrew-hulen.jpg"
+        "song_artist": "Choro de Aksak",
+        "song_album": "Zéphyr - 2015",
+        "song_title": "7 Anéis",
+        "song_url": "Choro de Aksak/Zéphyr - 2015/03 7 Anéis (feat. Bongo Ben, Aldo Zein, Samuel Durand).flac",
+        "avatar": "Choro de Aksak/Zéphyr - 2015/cover.jpg"
     },
     {
-        "first_name": "Angela",
-        "last_name": "Martin",
-        "role": "Account Coordinator",
-        "song_title": "Linus and Lucy",
-        "song_artist": "Vince Guaraldi Trio",
-        "song_url": "Angela-M-Linus-And-Lucy.mp3",
-        "avatar": "angela-martin.jpg"
+        "song_artist": "Choro de Aksak",
+        "song_album": "Zéphyr - 2015",
+        "song_title": "Irmãos Latinos",
+        "song_url": "Choro de Aksak/Zéphyr - 2015/04 Irmãos Latinos (feat. Bongo Ben, Aldo Zein, Samuel Durand).flac",
+        "avatar": "Choro de Aksak/Zéphyr - 2015/cover.jpg"
     },
     {
-        "first_name": "Bill ",
-        "last_name": "Allen",
-        "role": "Creative Director",
-        "song_title": "I Wish it Could Be Christmas Everyday",
-        "song_artist": "Wizzard",
-        "song_url": "Bill-A-I-Wish-It-Could-Be-Christmas-Everyday.mp3",
-        "avatar": "bill-allen.jpg"
+        "song_artist": "Choro de Aksak",
+        "song_album": "Zéphyr - 2015",
+        "song_title": "Flambée montalbanaise",
+        "song_url": "Choro de Aksak/Zéphyr - 2015/05 Flambée montalbanaise (feat. Bongo Ben, Aldo Zein, Samuel Durand).flac",
+        "avatar": "Choro de Aksak/Zéphyr - 2015/cover.jpg"
     },
     {
-        "first_name": "Bob",
-        "last_name": "Bost",
-        "role": "Production Designer",
-        "song_title": "I'll Be Home for Christmas ",
-        "song_artist": "Michael Bublé",
-        "song_url": "Bob-B-Ill-Be-Home-For-Christmas.mp3",
-        "avatar": "dog2.jpg"
+        "song_artist": "David Forget",
+        "song_album": "1.4 - 2020",
+        "song_title": "Mr Moyen",
+        "song_url": "David Forget/1.4 - 2020/01 Mr Moyen.flac",
+        "avatar": "David Forget/1.4 - 2020/cover.jpg"
     },
     {
-        "first_name": "Cam",
-        "last_name": "Green",
-        "role": "Partner",
-        "song_title": "Have Yourself a Merry LIttle Christmas",
-        "song_artist": "Tony Bennett",
-        "song_url": "Cam-G-Have-Yourself-A-Merry-Little-Christmas.mp3",
-        "avatar": "cam-green.jpg"
+        "song_artist": "David Forget",
+        "song_album": "1.4 - 2020",
+        "song_title": "Si j'avais",
+        "song_url": "David Forget/1.4 - 2020/02 Si j'avais.flac",
+        "avatar": "David Forget/1.4 - 2020/cover.jpg"
     },
     {
-        "first_name": "Cami",
-        "last_name": "Pettengill",
-        "role": "Media Coordinator",
-        "song_title": "Rockin' Around the Christmas Tree",
-        "song_artist": "Brenda Lee",
-        "song_url": "Cami-P-Rockin'-Around-The-Christmas-Tree-Single-Version.mp3",
-        "avatar": "cami-pettengill.jpg"
+        "song_artist": "David Forget",
+        "song_album": "1.4 - 2020",
+        "song_title": "La vertu",
+        "song_url": "David Forget/1.4 - 2020/03 La vertu.flac",
+        "avatar": "David Forget/1.4 - 2020/cover.jpg"
     },
     {
-        "first_name": "Chaun",
-        "last_name": "Osburn",
-        "role": "Sr Designer",
-        "song_title": "The Little Drummer Boy",
-        "song_artist": "Johnny Cash",
-        "song_url": "Chaun-O-The-Little-Drummer-Boy.mp3",
-        "avatar": "chaun-osburn.jpg"
+        "song_artist": "David Forget",
+        "song_album": "1.4 - 2020",
+        "song_title": "Amour Ô mon Amour",
+        "song_url": "David Forget/1.4 - 2020/04 Amour Ô mon Amour.flac",
+        "avatar": "David Forget/1.4 - 2020/cover.jpg"
     },
     {
-        "first_name": "Christy ",
-        "last_name": "Healy",
-        "role": "Sr Project Manager",
-        "song_title": "Here Comes Santa Claus",
-        "song_artist": "Elvis Presley",
-        "song_url": "Christy-H-Here-Comes-Santa-Claus-Right-Down-Santa-Claus-Lane.mp3",
-        "avatar": "christy-healy.jpg"
+        "song_artist": "Duo Fines Lames",
+        "song_album": "Fines Lames - 2017",
+        "song_title": "Vasco",
+        "song_url": "Duo Fines Lames/Fines Lames - 2017/01 Vasco.mp3",
+        "avatar": "Duo Fines Lames/Fines Lames - 2017/cover.jpg"
     },
     {
-        "first_name": "Crystal ",
-        "last_name": "Inge",
-        "role": "Growth Director",
-        "song_title": "All I Want for Christmas is You",
-        "song_artist": "Mariah Carey",
-        "song_url": "Crystal-I-All-I-Want-for-Christmas-Is-You.mp3",
-        "avatar": "crystal-inge.jpg"
+        "song_artist": "Duo Fines Lames",
+        "song_album": "Fines Lames - 2017",
+        "song_title": "Reflets d'influences 1",
+        "song_url": "Duo Fines Lames/Fines Lames - 2017/02 Reflets d'influences 1.mp3",
+        "avatar": "Duo Fines Lames/Fines Lames - 2017/cover.jpg"
     },
     {
-        "first_name": "Curtis",
-        "last_name": "Jackson",
-        "role": "Production Artist",
-        "song_title": "Christmas is Coming ",
-        "song_artist": "Vince Guaraldi Trio",
-        "song_url": "Curtis-J-Christmas-Is-Coming.mp3",
-        "avatar": "curtis-jackson.jpg"
+        "song_artist": "Duo Fines Lames",
+        "song_album": "Fines Lames - 2017",
+        "song_title": "Avec un peu de a",
+        "song_url": "Duo Fines Lames/Fines Lames - 2017/03 Avec un peu de a.mp3",
+        "avatar": "Duo Fines Lames/Fines Lames - 2017/cover.jpg"
     },
     {
-        "first_name": "Dan",
-        "last_name": "Poss",
-        "role": "Content Studio Manager",
-        "song_title": "Christmas Song",
-        "song_artist": "Dave Matthews Band",
-        "song_url": "Dan-P-Christmas-Song.mp3",
-        "avatar": "dan-poss.jpg"
+        "song_artist": "Duo Fines Lames",
+        "song_album": "Fines Lames - 2017",
+        "song_title": "Pouki Pouki",
+        "song_url": "Duo Fines Lames/Fines Lames - 2017/04 Pouki Pouki.mp3",
+        "avatar": "Duo Fines Lames/Fines Lames - 2017/cover.jpg"
     },
     {
-        "first_name": "Daniel ",
-        "last_name": "Getachew",
-        "role": "Account Director",
-        "song_title": "Christmas Treat ",
-        "song_artist": "Julian Casablancas",
-        "song_url": "Daniel-G-Christmas-Treat.mp3",
-        "avatar": "daniel-getachew.jpg"
+        "song_artist": "Duo Fines Lames",
+        "song_album": "Fines Lames - 2017",
+        "song_title": "Mikrokosmos n116",
+        "song_url": "Duo Fines Lames/Fines Lames - 2017/05 Mikrokosmos n116.mp3",
+        "avatar": "Duo Fines Lames/Fines Lames - 2017/cover.jpg"
     },
     {
-        "first_name": "Dylan ",
-        "last_name": "McGuire",
-        "role": "Digital Media Manager",
-        "song_title": "Christmas Time is Here (vocal version)",
-        "song_artist": "Vince Guaraldi Trio",
-        "song_url": "Dylan-M-Christmas-Time-Is-Here-Vocal.mp3",
-        "avatar": "dylan-mcguire.jpg"
+        "song_artist": "Duo Fines Lames",
+        "song_album": "Fines Lames - 2017",
+        "song_title": "Mikrokosmos n153",
+        "song_url": "Duo Fines Lames/Fines Lames - 2017/06 Mikrokosmos n153.mp3",
+        "avatar": "Duo Fines Lames/Fines Lames - 2017/cover.jpg"
     },
     {
-        "first_name": "Dylan",
-        "last_name": "Rabinowitz",
-        "role": "Social Media Planner / Buyer",
-        "song_title": "Christmas Rappin' ",
-        "song_artist": "Kurtis Blow",
-        "song_url": "Dylan-R-Christmas-Rappin.mp3",
-        "avatar": "dylan-rabinowitz.jpg"
+        "song_artist": "Duo Fines Lames",
+        "song_album": "Fines Lames - 2017",
+        "song_title": "Very Early",
+        "song_url": "Duo Fines Lames/Fines Lames - 2017/07 Very Early.mp3",
+        "avatar": "Duo Fines Lames/Fines Lames - 2017/cover.jpg"
     },
     {
-        "first_name": "Eric ",
-        "last_name": "Englehorn",
-        "role": "Sr Project Manager",
-        "song_title": "Do They Know It's Christmas ",
-        "song_artist": "Band Aid",
-        "song_url": "Eric-E-Do-They-Know-Its-Christmas-1984-Version.mp3",
-        "avatar": "eric-englehorn.jpg"
+        "song_artist": "Duo Fines Lames",
+        "song_album": "Fines Lames - 2017",
+        "song_title": "Sang Mélé",
+        "song_url": "Duo Fines Lames/Fines Lames - 2017/08 Sang Mélé.mp3",
+        "avatar": "Duo Fines Lames/Fines Lames - 2017/cover.jpg"
     },
     {
-        "first_name": "Griffin ",
-        "last_name": "MacConnell",
-        "role": "Account Coordinator",
-        "song_title": "What’s This?",
-        "song_artist": "Nightmare Before Christmas",
-        "song_url": "Griffin-M-Whats-This.mp3",
-        "avatar": "griffin-macconnell.jpg"
+        "song_artist": "Duo Fines Lames",
+        "song_album": "Fines Lames - 2017",
+        "song_title": "Reflets d'influences 2",
+        "song_url": "Duo Fines Lames/Fines Lames - 2017/09 Reflets d'influences 2.mp3",
+        "avatar": "Duo Fines Lames/Fines Lames - 2017/cover.jpg"
     },
     {
-        "first_name": "Hamilton ",
-        "last_name": "McCulloh",
-        "role": "Marketing Communications Director",
-        "song_title": "Santa Claus is Coming to Town \n",
-        "song_artist": "Bruce Springsteen",
-        "song_url": "Hamilton-M-Santa-Claus-Is-Comin-to-Town-Live.mp3",
-        "avatar": "hamilton-mcculloh.jpg"
+        "song_artist": "Duo Fines Lames",
+        "song_album": "Fines Lames - 2017",
+        "song_title": "Nuit rouge",
+        "song_url": "Duo Fines Lames/Fines Lames - 2017/10 Nuit rouge.mp3",
+        "avatar": "Duo Fines Lames/Fines Lames - 2017/cover.jpg"
     },
     {
-        "first_name": "Hank ",
-        "last_name": "Zakroff",
-        "role": "Sr Copywriter",
-        "song_title": "Eye of the Tiger",
-        "song_artist": "Survivor",
-        "song_url": "Hank-Z-Eye-of-the-Tiger.mp3",
-        "avatar": "hank-zarkoff.jpg"
+        "song_artist": "Duo Fines Lames",
+        "song_album": "InTime Brubeck - 2020",
+        "song_title": "Fairy blades",
+        "song_url": "Duo Fines Lames/InTime Brubeck - 2020/01 Fairy blades.mp3",
+        "avatar": "Duo Fines Lames/InTime Brubeck - 2020/cover.jpg"
     },
     {
-        "first_name": "Jacob ",
-        "last_name": "Vargas",
-        "role": "Sr Account Manager",
-        "song_title": "My Only Wish (This Year)",
-        "song_artist": "Britney Spears",
-        "song_url": "Jacob-V-My-Only-Wish-This-Year.mp3",
-        "avatar": "jacob-vargas.jpg"
+        "song_artist": "Duo Fines Lames",
+        "song_album": "InTime Brubeck - 2020",
+        "song_title": "Fast life",
+        "song_url": "Duo Fines Lames/InTime Brubeck - 2020/02 Fast life.mp3",
+        "avatar": "Duo Fines Lames/InTime Brubeck - 2020/cover.jpg"
     },
     {
-        "first_name": "Joe ",
-        "last_name": "LePla",
-        "role": "Principal Strategist",
-        "song_title": "Christmas Love",
-        "song_artist": "Justin Bieber",
-        "song_url": "Joe-Christmas-Love.mp3",
-        "avatar": "joe-lepla.jpg"
+        "song_artist": "Duo Fines Lames",
+        "song_album": "InTime Brubeck - 2020",
+        "song_title": "Take 11",
+        "song_url": "Duo Fines Lames/InTime Brubeck - 2020/03 Take 11.mp3",
+        "avatar": "Duo Fines Lames/InTime Brubeck - 2020/cover.jpg"
     },
     {
-        "first_name": "John",
-        "last_name": "Rubino",
-        "role": "Partner",
-        "song_title": "Here Comes Santa Claus ",
-        "song_artist": "Doris Day",
-        "song_url": "John-R-Here-Comes-Santa-Claus.mp3",
-        "avatar": "john-rubino.jpg"
+        "song_artist": "Duo Fines Lames",
+        "song_album": "InTime Brubeck - 2020",
+        "song_title": "r0nd0",
+        "song_url": "Duo Fines Lames/InTime Brubeck - 2020/04 r0nd0.mp3",
+        "avatar": "Duo Fines Lames/InTime Brubeck - 2020/cover.jpg"
     },
     {
-        "first_name": "Joleen ",
-        "last_name": "Zanuzoski",
-        "role": "Public Relations Director",
-        "song_title": "Merry Christmas, Happy Holidays ",
-        "song_artist": "*NSYNC",
-        "song_url": "Joleen-Z-Merry-Christmas-Happy-Holidays.mp3",
-        "avatar": "joleen-zanuzoski.jpg"
+        "song_artist": "Duo Fines Lames",
+        "song_album": "InTime Brubeck - 2020",
+        "song_title": "Ibericana",
+        "song_url": "Duo Fines Lames/InTime Brubeck - 2020/05 Ibericana.mp3",
+        "avatar": "Duo Fines Lames/InTime Brubeck - 2020/cover.jpg"
     },
     {
-        "first_name": "Jon ",
-        "last_name": "Njos",
-        "role": "Sr Media Manager",
-        "song_title": "Mele Kalikimaka ",
-        "song_artist": "Bing Crosby",
-        "song_url": "Jon-N-Mele-Kalikimaka-Merry-Christmas.mp3",
-        "avatar": "jon-njos.jpg"
+        "song_artist": "Duo Fines Lames",
+        "song_album": "InTime Brubeck - 2020",
+        "song_title": "Bluette",
+        "song_url": "Duo Fines Lames/InTime Brubeck - 2020/06 Bluette.mp3",
+        "avatar": "Duo Fines Lames/InTime Brubeck - 2020/cover.jpg"
     },
     {
-        "first_name": "Josa ",
-        "last_name": "Hodge",
-        "role": "Billing Specialist",
-        "song_title": "You're a Mean One, Mr. Grinch",
-        "song_artist": "Burl Ives",
-        "song_url": "Josa-H-Youre-a-Mean-One-Mr-Grinch.mp3",
-        "avatar": "josa-hodge.jpg"
+        "song_artist": "Duo Fines Lames",
+        "song_album": "InTime Brubeck - 2020",
+        "song_title": "Entre lacs et montagnes",
+        "song_url": "Duo Fines Lames/InTime Brubeck - 2020/07 Entre lacs et montagnes.mp3",
+        "avatar": "Duo Fines Lames/InTime Brubeck - 2020/cover.jpg"
     },
     {
-        "first_name": "Karlie",
-        "last_name": "Watts",
-        "role": "Web Content Producer",
-        "song_title": "Winter Wonderland ",
-        "song_artist": "Darlene Love",
-        "song_url": "Karlie-W-Winter-Wonderland.mp3",
-        "avatar": "karlie-watts.jpg"
+        "song_artist": "Duo Fines Lames",
+        "song_album": "InTime Brubeck - 2020",
+        "song_title": "Tritonis",
+        "song_url": "Duo Fines Lames/InTime Brubeck - 2020/08 Tritonis.mp3",
+        "avatar": "Duo Fines Lames/InTime Brubeck - 2020/cover.jpg"
     },
     {
-        "first_name": "Kimanh",
-        "last_name": "Moreau",
-        "role": "Web Services Director",
-        "song_title": "My Favorite Things",
-        "song_artist": "Tony Bennett",
-        "song_url": "Kimanh-M-My-Favorite-Things.mp3",
-        "avatar": "kimanh-moreau.jpg"
+        "song_artist": "Duo Fines Lames",
+        "song_album": "InTime Brubeck - 2020",
+        "song_title": "Koto song",
+        "song_url": "Duo Fines Lames/InTime Brubeck - 2020/09 Koto song.mp3",
+        "avatar": "Duo Fines Lames/InTime Brubeck - 2020/cover.jpg"
     },
     {
-        "first_name": "Kourtney ",
-        "last_name": "Spurgeon",
-        "role": "PR Account Coordinator",
-        "song_title": "Run Rudolph Run",
-        "song_artist": "Chuck Berry",
-        "song_url": "Kourtney-S-Run-Rudolph-Run-Single-Version.mp3",
-        "avatar": "kourtney-spurgeon.jpg"
+        "song_artist": "Duo Fines Lames",
+        "song_album": "InTime Brubeck - 2020",
+        "song_title": "Tokyo traffic",
+        "song_url": "Duo Fines Lames/InTime Brubeck - 2020/10 Tokyo traffic.mp3",
+        "avatar": "Duo Fines Lames/InTime Brubeck - 2020/cover.jpg"
     },
     {
-        "first_name": "Laura",
-        "last_name": "Ward",
-        "role": "Account Manager",
-        "song_title": "Have Yourself a Merry Little Christmas",
-        "song_artist": "Pentatonix",
-        "song_url": "Laura-W-Have-Yourself-a-Merry-Little-Christmas.mp3",
-        "avatar": "laura-ward.jpg"
+        "song_artist": "Duo Fines Lames",
+        "song_album": "InTime Brubeck - 2020",
+        "song_title": "Fujiyama",
+        "song_url": "Duo Fines Lames/InTime Brubeck - 2020/11 Fujiyama.mp3",
+        "avatar": "Duo Fines Lames/InTime Brubeck - 2020/cover.jpg"
     },
     {
-        "first_name": "Linda ",
-        "last_name": "Oberst",
-        "role": "Account Payable Specialist",
-        "song_title": "Baby, It's Cold Outside",
-        "song_artist": "Leon Redbone / Zooey Deschanel ",
-        "song_url": "Linda-O-Baby-Its-Cold-Outside.mp3",
-        "avatar": "linda-oberst.jpg"
+        "song_artist": "La Fanfare Saugrenue",
+        "song_album": "Brass Cover - 2021",
+        "song_title": "Black Hole Sun",
+        "song_url": "La Fanfare Saugrenue/Brass Cover - 2021/01 Black Hole Sun.flac",
+        "avatar": "La Fanfare Saugrenue/Brass Cover - 2021/cover.jpg"
     },
     {
-        "first_name": "Liza ",
-        "last_name": "Sankar-Gorton",
-        "role": "Creative Content Manager",
-        "song_title": "Christmas in Hollis ",
-        "song_artist": "Run-DMC",
-        "song_url": "Liza-S-Christmas-In-Hollis.mp3",
-        "avatar": "liza-sankar-gorton.jpg"
+        "song_artist": "La Fanfare Saugrenue",
+        "song_album": "Brass Cover - 2021",
+        "song_title": "Exit Music for a Film",
+        "song_url": "La Fanfare Saugrenue/Brass Cover - 2021/02 Exit Music for a Film.flac",
+        "avatar": "La Fanfare Saugrenue/Brass Cover - 2021/cover.jpg"
     },
     {
-        "first_name": "Lynn ",
-        "last_name": "Parker",
-        "role": "Principal Strategist",
-        "song_title": "Christmas Island ",
-        "song_artist": "Leon Redbone",
-        "song_url": "Lynn-P-Christmas-Island.mp3",
-        "avatar": "lynn-parker.jpg"
+        "song_artist": "La Fanfare Saugrenue",
+        "song_album": "Brass Cover - 2021",
+        "song_title": "Grace",
+        "song_url": "La Fanfare Saugrenue/Brass Cover - 2021/03 Grace.flac",
+        "avatar": "La Fanfare Saugrenue/Brass Cover - 2021/cover.jpg"
     },
     {
-        "first_name": "Mark ",
-        "last_name": "DeJarnett",
-        "role": "Media Manager",
-        "song_title": "Little Drummer Boy (live)",
-        "song_artist": "For King & Country",
-        "song_url": "Mark-D-Little-Drummer-Boy-Live.mp3",
-        "avatar": "mark-dejarnett.jpg"
+        "song_artist": "La Fanfare Saugrenue",
+        "song_album": "Brass Cover - 2021",
+        "song_title": "No One Knows",
+        "song_url": "La Fanfare Saugrenue/Brass Cover - 2021/04 No One Knows.flac",
+        "avatar": "La Fanfare Saugrenue/Brass Cover - 2021/cover.jpg"
     },
     {
-        "first_name": "Matt ",
-        "last_name": "Swecker",
-        "role": "Copywriter",
-        "song_title": "Puppies Are Forever ",
-        "song_artist": "Sia",
-        "song_url": "Matthew-S-Puppies-Are-Forever.mp3",
-        "avatar": "matt-swecker.jpg"
+        "song_artist": "La Goutte au Nez",
+        "song_album": "Les Pavés Grondent - 2010",
+        "song_title": "Police District",
+        "song_url": "La Goutte au Nez/Les Pavés Grondent - 2010/01 Police District.flac",
+        "avatar": "La Goutte au Nez/Les Pavés Grondent - 2010/cover.jpg"
     },
     {
-        "first_name": "Max ",
-        "last_name": "Brettler",
-        "role": "UX / UI Designer",
-        "song_title": "Santa Claus is Coming to Town ",
-        "song_artist": "Jackson 5",
-        "song_url": "Max-B-Santa-Claus-Is-Coming-To-Town.mp3",
-        "avatar": "max-brettler.jpg"
+        "song_artist": "La Goutte au Nez",
+        "song_album": "Les Pavés Grondent - 2010",
+        "song_title": "The Drogstore",
+        "song_url": "La Goutte au Nez/Les Pavés Grondent - 2010/02 The Drogstore.flac",
+        "avatar": "La Goutte au Nez/Les Pavés Grondent - 2010/cover.jpg"
     },
     {
-        "first_name": "McKenna ",
-        "last_name": "Turner",
-        "role": "Content Studio Producer",
-        "song_title": "Have Yourself a Merry Little Christmas ",
-        "song_artist": "Judy Garland ",
-        "song_url": "McKenna-T-Have-Yourself-A-Merry-Little-Christmas.mp3",
-        "avatar": "mckenna-turner.jpg"
+        "song_artist": "La Goutte au Nez",
+        "song_album": "Les Pavés Grondent - 2010",
+        "song_title": "Scareland",
+        "song_url": "La Goutte au Nez/Les Pavés Grondent - 2010/03 Scareland.flac",
+        "avatar": "La Goutte au Nez/Les Pavés Grondent - 2010/cover.jpg"
     },
     {
-        "first_name": "Melissa ",
-        "last_name": "Durfee-Davis",
-        "role": "Media Director",
-        "song_title": "Baby It’s Cold Outside ",
-        "song_artist": "James Taylor & Natalie Cole",
-        "song_url": "Melissa-D-Baby-Its-Cold-Outside.mp3",
-        "avatar": "melissa-durfee-davis.jpg"
+        "song_artist": "La Goutte au Nez",
+        "song_album": "Les Pavés Grondent - 2010",
+        "song_title": "Backa I",
+        "song_url": "La Goutte au Nez/Les Pavés Grondent - 2010/04 Backa I.flac",
+        "avatar": "La Goutte au Nez/Les Pavés Grondent - 2010/cover.jpg"
     },
     {
-        "first_name": "Mike",
-        "last_name": "Ahearn",
-        "role": "CFO",
-        "song_title": "Christmas in Killarney ",
-        "song_artist": "Bing Crosby",
-        "song_url": "Mike-A-Christmas-In-Killarney.mp3",
-        "avatar": "mike-ahearn.jpg"
+        "song_artist": "La Goutte au Nez",
+        "song_album": "Les Pavés Grondent - 2010",
+        "song_title": "L’Oracle",
+        "song_url": "La Goutte au Nez/Les Pavés Grondent - 2010/05 L’Oracle.flac",
+        "avatar": "La Goutte au Nez/Les Pavés Grondent - 2010/cover.jpg"
     },
     {
-        "first_name": "Nikko ",
-        "last_name": "Maher",
-        "role": "Account Coordinator",
-        "song_title": "Christmas Lights ",
-        "song_artist": "Coldplay",
-        "song_url": "nikko-m-christmast-lights.mp3",
-        "avatar": "nikko-maher.jpg"
+        "song_artist": "La Goutte au Nez",
+        "song_album": "Les Pavés Grondent - 2010",
+        "song_title": "Two men Come In, One Man Goes Out",
+        "song_url": "La Goutte au Nez/Les Pavés Grondent - 2010/06 Two men Come In, One Man Goes Out.flac",
+        "avatar": "La Goutte au Nez/Les Pavés Grondent - 2010/cover.jpg"
     },
     {
-        "first_name": "Paul ",
-        "last_name": "Villa",
-        "role": "Account Director",
-        "song_title": "Home for the Holidays ",
-        "song_artist": "Perry Como",
-        "song_url": "Paul-V-Theres-No-Place-Like-Home-for-the-Holidays-1959-Version.mp3",
-        "avatar": "paul-villa.jpg"
+        "song_artist": "La Goutte au Nez",
+        "song_album": "Les Pavés Grondent - 2010",
+        "song_title": "Red Light Quarter",
+        "song_url": "La Goutte au Nez/Les Pavés Grondent - 2010/07 Red Light Quarter.flac",
+        "avatar": "La Goutte au Nez/Les Pavés Grondent - 2010/cover.jpg"
     },
     {
-        "first_name": "Rachael",
-        "last_name": "Brister",
-        "role": "LGBT Engagement Lead",
-        "song_title": "Santa Tell Me ",
-        "song_artist": "Ariana Grande ",
-        "song_url": "rachael-Santa-Tell-Me.mp3",
-        "avatar": "rachael-brister.jpg"
+        "song_artist": "La Goutte au Nez",
+        "song_album": "Les Pavés Grondent - 2010",
+        "song_title": "Substance Mort",
+        "song_url": "La Goutte au Nez/Les Pavés Grondent - 2010/08 Substance Mort.flac",
+        "avatar": "La Goutte au Nez/Les Pavés Grondent - 2010/cover.jpg"
     },
     {
-        "first_name": "Robert ",
-        "last_name": "Ketter",
-        "role": "Account Coordinator",
-        "song_title": "Happy Holiday",
-        "song_artist": "She & Him",
-        "song_url": "Robert-K-Happy-Holiday.mp3",
-        "avatar": "robert-ketter.jpg"
+        "song_artist": "La Goutte au Nez",
+        "song_album": "Les Pavés Grondent - 2010",
+        "song_title": "Uproar",
+        "song_url": "La Goutte au Nez/Les Pavés Grondent - 2010/09 Uproar.flac",
+        "avatar": "La Goutte au Nez/Les Pavés Grondent - 2010/cover.jpg"
     },
     {
-        "first_name": "Rudy ",
-        "last_name": "Mainar",
-        "role": "IT Director",
-        "song_title": "A Holly Jolly Christmas ",
-        "song_artist": "Burl Ives",
-        "song_url": "Rudy-M-A-Holly-Jolly-Christmas.mp3",
-        "avatar": "rudy-mainar.jpg"
+        "song_artist": "La Goutte au Nez",
+        "song_album": "Les Pavés Grondent - 2010",
+        "song_title": "Nuit de Sabbat",
+        "song_url": "La Goutte au Nez/Les Pavés Grondent - 2010/10 Nuit de Sabbat.flac",
+        "avatar": "La Goutte au Nez/Les Pavés Grondent - 2010/cover.jpg"
     },
     {
-        "first_name": "Sabreena ",
-        "last_name": "Sahayam",
-        "role": "Marketing Analyst",
-        "song_title": "Jingle Bells",
-        "song_artist": "The Chipmunks",
-        "song_url": "Sabreena-S-Jingle-Bells.mp3",
-        "avatar": "sabreena-sahayam.jpg"
+        "song_artist": "La Goutte au Nez",
+        "song_album": "Les Pavés Grondent - 2010",
+        "song_title": "Come On Down!",
+        "song_url": "La Goutte au Nez/Les Pavés Grondent - 2010/11 Come On Down!.flac",
+        "avatar": "La Goutte au Nez/Les Pavés Grondent - 2010/cover.jpg"
     },
     {
-        "first_name": "Saedah ",
-        "last_name": "Ham",
-        "role": "PR Account Coordinator",
-        "song_title": "This Christmas ",
-        "song_artist": "Destiny's Child",
-        "song_url": "Saedah-H-This-Christmas.mp3",
-        "avatar": "saedah-ham.jpg"
+        "song_artist": "La Goutte au Nez",
+        "song_album": "Les Pavés Grondent - 2010",
+        "song_title": "Hunter",
+        "song_url": "La Goutte au Nez/Les Pavés Grondent - 2010/12 Hunter.flac",
+        "avatar": "La Goutte au Nez/Les Pavés Grondent - 2010/cover.jpg"
     },
     {
-        "first_name": "Sam ",
-        "last_name": "Starr",
-        "role": "Business Operations Manager",
-        "song_title": "Wonderful Christmastime",
-        "song_artist": "Paul McCartney",
-        "song_url": "Sam-S-Wonderful-Christmastime.mp3",
-        "avatar": "sam-starr.jpg"
+        "song_artist": "La Goutte au Nez",
+        "song_album": "Les Pavés Grondent - 2010",
+        "song_title": "Cymbala’s Thor",
+        "song_url": "La Goutte au Nez/Les Pavés Grondent - 2010/13 Cymbala’s Thor.flac",
+        "avatar": "La Goutte au Nez/Les Pavés Grondent - 2010/cover.jpg"
     },
     {
-        "first_name": "Samantha ",
-        "last_name": "Olson",
-        "role": "Marketing Analyst",
-        "song_title": "Carol of the Bells ",
-        "song_artist": "David Foster",
-        "song_url": "Samanthan-O-Carol-Of-The-Bells.mp3",
-        "avatar": "samantha-olson.jpg"
+        "song_artist": "La Goutte au Nez",
+        "song_album": "Les Pavés Grondent - 2010",
+        "song_title": "Sewers Anthem",
+        "song_url": "La Goutte au Nez/Les Pavés Grondent - 2010/14 Sewers Anthem.flac",
+        "avatar": "La Goutte au Nez/Les Pavés Grondent - 2010/cover.jpg"
     },
     {
-        "first_name": "Sarah ",
-        "last_name": "Climaco",
-        "role": "PR Account Coordinator",
-        "song_title": "The Little Drummer Boy ",
-        "song_artist": "The Temptations",
-        "song_url": "Sarah-C-The-Little-Drummer-Boy.mp3",
-        "avatar": "sarah-climaco.jpg"
+        "song_artist": "La Goutte au Nez",
+        "song_album": "Ne pas jeter sur la voie publique - 2004",
+        "song_title": "Sur place ou à emporter",
+        "song_url": "La Goutte au Nez/Ne pas jeter sur la voie publique - 2004/01 Sur place ou à emporter.flac",
+        "avatar": "La Goutte au Nez/Ne pas jeter sur la voie publique - 2004/cover.jpg"
     },
     {
-        "first_name": "Sean",
-        "last_name": "Lakey",
-        "role": "Account Coordinator",
-        "song_title": "The Christmas Song ",
-        "song_artist": "Nat King Cole",
-        "song_url": "Sean-L-The-Christmas-Song-Merry-Christmas-To-You-1999-Remastered.mp3",
-        "avatar": "sean-lakey.jpg"
+        "song_artist": "La Goutte au Nez",
+        "song_album": "Ne pas jeter sur la voie publique - 2004",
+        "song_title": "Slave-toi, tu pues",
+        "song_url": "La Goutte au Nez/Ne pas jeter sur la voie publique - 2004/02 Slave-toi, tu pues (ouverture).flac",
+        "avatar": "La Goutte au Nez/Ne pas jeter sur la voie publique - 2004/cover.jpg"
     },
     {
-        "first_name": "Seth ",
-        "last_name": "Sobotka",
-        "role": "Search Marketing Manager",
-        "song_title": "White Christmas ",
-        "song_artist": "The Beach Boys",
-        "song_url": "Seth-S-White-Christmas.mp3",
-        "avatar": "seth-sobotka.jpg"
+        "song_artist": "La Goutte au Nez",
+        "song_album": "Ne pas jeter sur la voie publique - 2004",
+        "song_title": "Slave-toi, tu pues",
+        "song_url": "La Goutte au Nez/Ne pas jeter sur la voie publique - 2004/03 Slave-toi, tu pues (presto ma non tropo).flac",
+        "avatar": "La Goutte au Nez/Ne pas jeter sur la voie publique - 2004/cover.jpg"
     },
     {
-        "first_name": "Sharon ",
-        "last_name": "Nalley",
-        "role": "Associate Creative Director",
-        "song_title": "Winter Song ",
-        "song_artist": "Ingrid Michaelson & Sara Bareilles",
-        "song_url": "Sharon-N-Winter-Song.mp3",
-        "avatar": "sharon-nalley.jpg"
+        "song_artist": "La Goutte au Nez",
+        "song_album": "Ne pas jeter sur la voie publique - 2004",
+        "song_title": "Sol Carelus",
+        "song_url": "La Goutte au Nez/Ne pas jeter sur la voie publique - 2004/04 Sol Carelus.flac",
+        "avatar": "La Goutte au Nez/Ne pas jeter sur la voie publique - 2004/cover.jpg"
     },
     {
-        "first_name": "Sheryne ",
-        "last_name": "Cadicamo",
-        "role": "Account Manager",
-        "song_title": "Christmas Time is Here ",
-        "song_artist": "Vince Guaraldi Trio (instrumental)",
-        "song_url": "Sheryne-C-Christmas-Time-Is-Here -Instrumental.mp3",
-        "avatar": "sheryne-cadicamo.jpg"
+        "song_artist": "La Goutte au Nez",
+        "song_album": "Ne pas jeter sur la voie publique - 2004",
+        "song_title": "Onz Marre",
+        "song_url": "La Goutte au Nez/Ne pas jeter sur la voie publique - 2004/05 Onz Marre.flac",
+        "avatar": "La Goutte au Nez/Ne pas jeter sur la voie publique - 2004/cover.jpg"
     },
     {
-        "first_name": "Stacey",
-        "last_name": "Witt",
-        "role": "Project Accountant",
-        "song_title": "Run Run Rudolph",
-        "song_artist": "Kelly Clarkson",
-        "song_url": "Stacey-Run-Run-Rudolph.mp3",
-        "avatar": "stacey-witt.jpg"
+        "song_artist": "La Goutte au Nez",
+        "song_album": "Ne pas jeter sur la voie publique - 2004",
+        "song_title": "Greasy Roots And Dry Ends",
+        "song_url": "La Goutte au Nez/Ne pas jeter sur la voie publique - 2004/06 Greasy Roots And Dry Ends.flac",
+        "avatar": "La Goutte au Nez/Ne pas jeter sur la voie publique - 2004/cover.jpg"
     },
     {
-        "first_name": "Stacia",
-        "last_name": "Allen",
-        "role": "Group Director",
-        "song_title": "Blue Christmas ",
-        "song_artist": "Elvis Presley",
-        "song_url": "Stacia-A-Blue-Christmas.mp3",
-        "avatar": "stacia-allen.jpg"
+        "song_artist": "La Goutte au Nez",
+        "song_album": "Ouverture Facile - 2005",
+        "song_title": "Hongroise les doigts",
+        "song_url": "La Goutte au Nez/Ouverture Facile - 2005/01 Hongroise les doigts.flac",
+        "avatar": "La Goutte au Nez/Ouverture Facile - 2005/cover.jpg"
     },
     {
-        "first_name": "Stephen ",
-        "last_name": "Scaff",
-        "role": "Development Lead",
-        "song_title": "Soulful Christmas ",
-        "song_artist": "James Brown",
-        "song_url": "Stephen-S-Soulful-Christmas.mp3",
-        "avatar": "stephen-scaff.jpg"
+        "song_artist": "La Goutte au Nez",
+        "song_album": "Ouverture Facile - 2005",
+        "song_title": "Ouverture facile à la con",
+        "song_url": "La Goutte au Nez/Ouverture Facile - 2005/02 Ouverture facile à la con.flac",
+        "avatar": "La Goutte au Nez/Ouverture Facile - 2005/cover.jpg"
     },
     {
-        "first_name": "Steve",
-        "last_name": "Johnston",
-        "role": "Executive Creative Director",
-        "song_title": "Merry Christmas from the Family",
-        "song_artist": "Robert Earl Keen",
-        "song_url": "Steven-J-Merry-Christmas-From-The-Family.mp3",
-        "avatar": "steve-johnston.jpg"
+        "song_artist": "La Goutte au Nez",
+        "song_album": "Ouverture Facile - 2005",
+        "song_title": "Magik box",
+        "song_url": "La Goutte au Nez/Ouverture Facile - 2005/03 Magik box.flac",
+        "avatar": "La Goutte au Nez/Ouverture Facile - 2005/cover.jpg"
     },
     {
-        "first_name": "Taylee ",
-        "last_name": "Pardi",
-        "role": "Sr Web Project Manager",
-        "song_title": "Rudolf the Red Nosed Reindeer",
-        "song_artist": "Jewel",
-        "song_url": "Taylee-P-Rudolph-The-Red-Nosed-Reindeer.mp3",
-        "avatar": "taylee-pardi.jpg"
+        "song_artist": "La Goutte au Nez",
+        "song_album": "Ouverture Facile - 2005",
+        "song_title": "Tabatha Cash nocturne",
+        "song_url": "La Goutte au Nez/Ouverture Facile - 2005/04 Tabatha Cash nocturne.flac",
+        "avatar": "La Goutte au Nez/Ouverture Facile - 2005/cover.jpg"
     },
     {
-        "first_name": "Thomas ",
-        "last_name": "Ramey",
-        "role": "Sr Designer",
-        "song_title": "Every Christmas ",
-        "song_artist": "Kelly Clarkson",
-        "song_url": "Thomas-R-Every-Christmas.mp3",
-        "avatar": "thomas-ramey.jpg"
+        "song_artist": "La Goutte au Nez",
+        "song_album": "Ouverture Facile - 2005",
+        "song_title": "Ma première ligne",
+        "song_url": "La Goutte au Nez/Ouverture Facile - 2005/05 Ma première ligne (part 1).flac",
+        "avatar": "La Goutte au Nez/Ouverture Facile - 2005/cover.jpg"
     },
     {
-        "first_name": "Tin ",
-        "last_name": "Nguyen",
-        "role": "Account Manager",
-        "song_title": "Christmas in Harlem ",
-        "song_artist": "Kanye West ft. Prynce Cy Hi & Teyanna Taylor",
-        "song_url": "Tin-N-Christmas-In-Harlem.mp3",
-        "avatar": "tin-nguyen.jpg"
+        "song_artist": "La Goutte au Nez",
+        "song_album": "Ouverture Facile - 2005",
+        "song_title": "Gan Power",
+        "song_url": "La Goutte au Nez/Ouverture Facile - 2005/06 Gan Power.flac",
+        "avatar": "La Goutte au Nez/Ouverture Facile - 2005/cover.jpg"
     },
     {
-        "first_name": "Tina",
-        "last_name": "Firoozi ",
-        "role": "Receptionist",
-        "song_title": "Mary Did You Know ",
-        "song_artist": "Kenny Rogers ft. Wynonna Judd",
-        "song_url": "Tina-F-Mary-Did-You-Know.mp3",
-        "avatar": "tina-firoozi.jpg"
+        "song_artist": "La Goutte au Nez",
+        "song_album": "Ouverture Facile - 2005",
+        "song_title": "Mulata",
+        "song_url": "La Goutte au Nez/Ouverture Facile - 2005/07 Mulata.flac",
+        "avatar": "La Goutte au Nez/Ouverture Facile - 2005/cover.jpg"
     },
     {
-        "first_name": "Tina ",
-        "last_name": "Mainar",
-        "role": "HR Director",
-        "song_title": "Have Yourself a Merry Little Christmas ",
-        "song_artist": "Frank Sinatra",
-        "song_url": "Tina-M-Have-Yourself-A-Merry-Little-Christmas-1999-Remaster.mp3",
-        "avatar": "tina-mainar.jpg"
+        "song_artist": "La Goutte au Nez",
+        "song_album": "Ouverture Facile - 2005",
+        "song_title": "Chicango",
+        "song_url": "La Goutte au Nez/Ouverture Facile - 2005/08 Chicango.flac",
+        "avatar": "La Goutte au Nez/Ouverture Facile - 2005/cover.jpg"
     },
     {
-        "first_name": "Tod",
-        "last_name": "Visdal",
-        "role": "Microsoft Account Director",
-        "song_title": "Blue Christmas ",
-        "song_artist": "Andy Williams",
-        "song_url": "Tod-V-Blue-Christmas.mp3",
-        "avatar": "tod-visdal.jpg"
+        "song_artist": "La Goutte au Nez",
+        "song_album": "Ouverture Facile - 2005",
+        "song_title": "Ma première ligne",
+        "song_url": "La Goutte au Nez/Ouverture Facile - 2005/09 Ma première ligne (part 2).flac",
+        "avatar": "La Goutte au Nez/Ouverture Facile - 2005/cover.jpg"
     },
     {
-        "first_name": "Tracy ",
-        "last_name": "Rabsky",
-        "role": "PR Account Manager",
-        "song_title": "The Chanukah Song ",
-        "song_artist": "Adam Sandler",
-        "song_url": "Tracy-R-The-Chanukah-Song.mp3",
-        "avatar": "tracy-rabsky.jpg"
+        "song_artist": "La Goutte au Nez",
+        "song_album": "Ouverture Facile - 2005",
+        "song_title": "Anarchie au Temps Des Rois",
+        "song_url": "La Goutte au Nez/Ouverture Facile - 2005/10 Anarchie au Temps Des Rois.flac",
+        "avatar": "La Goutte au Nez/Ouverture Facile - 2005/cover.jpg"
+    },
+    {
+        "song_artist": "La Goutte au Nez",
+        "song_album": "Ouverture Facile - 2005",
+        "song_title": "Police District",
+        "song_url": "La Goutte au Nez/Ouverture Facile - 2005/11 Police District.flac",
+        "avatar": "La Goutte au Nez/Ouverture Facile - 2005/cover.jpg"
+    },
+    {
+        "song_artist": "La Goutte au Nez",
+        "song_album": "Ouverture Facile - 2005",
+        "song_title": "Salsa Malikum",
+        "song_url": "La Goutte au Nez/Ouverture Facile - 2005/12 Salsa Malikum.flac",
+        "avatar": "La Goutte au Nez/Ouverture Facile - 2005/cover.jpg"
+    },
+    {
+        "song_artist": "La Goutte au Nez",
+        "song_album": "Ouverture Facile - 2005",
+        "song_title": "Ma première ligne",
+        "song_url": "La Goutte au Nez/Ouverture Facile - 2005/13 Ma première ligne (part 3).flac",
+        "avatar": "La Goutte au Nez/Ouverture Facile - 2005/cover.jpg"
+    },
+    {
+        "song_artist": "La Goutte au Nez",
+        "song_album": "Ouverture Facile - 2005",
+        "song_title": "Paso Dub",
+        "song_url": "La Goutte au Nez/Ouverture Facile - 2005/14 Paso Dub.flac",
+        "avatar": "La Goutte au Nez/Ouverture Facile - 2005/cover.jpg"
+    },
+    {
+        "song_artist": "Le Balluche de la Saugrenue",
+        "song_album": "Les petites amourettes - 2011",
+        "song_title": "Les petites amourettes",
+        "song_url": "Le Balluche de la Saugrenue/Les petites amourettes - 2011/01 Les petites amourettes.mp3",
+        "avatar": "Le Balluche de la Saugrenue/Les petites amourettes - 2011/cover.jpg"
+    },
+    {
+        "song_artist": "Le Balluche de la Saugrenue",
+        "song_album": "Les petites amourettes - 2011",
+        "song_title": "Le prince pas charmant",
+        "song_url": "Le Balluche de la Saugrenue/Les petites amourettes - 2011/02 Le prince pas charmant.mp3",
+        "avatar": "Le Balluche de la Saugrenue/Les petites amourettes - 2011/cover.jpg"
+    },
+    {
+        "song_artist": "Le Balluche de la Saugrenue",
+        "song_album": "Les petites amourettes - 2011",
+        "song_title": "La rafale",
+        "song_url": "Le Balluche de la Saugrenue/Les petites amourettes - 2011/03 La rafale.mp3",
+        "avatar": "Le Balluche de la Saugrenue/Les petites amourettes - 2011/cover.jpg"
+    },
+    {
+        "song_artist": "Le Balluche de la Saugrenue",
+        "song_album": "Les petites amourettes - 2011",
+        "song_title": "Le beguin",
+        "song_url": "Le Balluche de la Saugrenue/Les petites amourettes - 2011/04 Le beguin.mp3",
+        "avatar": "Le Balluche de la Saugrenue/Les petites amourettes - 2011/cover.jpg"
+    },
+    {
+        "song_artist": "Le Balluche de la Saugrenue",
+        "song_album": "Les petites amourettes - 2011",
+        "song_title": "Le gigolo",
+        "song_url": "Le Balluche de la Saugrenue/Les petites amourettes - 2011/05 Le gigolo.mp3",
+        "avatar": "Le Balluche de la Saugrenue/Les petites amourettes - 2011/cover.jpg"
+    },
+    {
+        "song_artist": "Le Balluche de la Saugrenue",
+        "song_album": "Les petites amourettes - 2011",
+        "song_title": "L'araignée",
+        "song_url": "Le Balluche de la Saugrenue/Les petites amourettes - 2011/06 L'araignée.mp3",
+        "avatar": "Le Balluche de la Saugrenue/Les petites amourettes - 2011/cover.jpg"
+    },
+    {
+        "song_artist": "Le Balluche de la Saugrenue",
+        "song_album": "Les petites amourettes - 2011",
+        "song_title": "La COCO",
+        "song_url": "Le Balluche de la Saugrenue/Les petites amourettes - 2011/07 La COCO.mp3",
+        "avatar": "Le Balluche de la Saugrenue/Les petites amourettes - 2011/cover.jpg"
+    },
+    {
+        "song_artist": "Le Balluche de la Saugrenue",
+        "song_album": "Les petites amourettes - 2011",
+        "song_title": "El relicario",
+        "song_url": "Le Balluche de la Saugrenue/Les petites amourettes - 2011/08 El relicario.mp3",
+        "avatar": "Le Balluche de la Saugrenue/Les petites amourettes - 2011/cover.jpg"
+    },
+    {
+        "song_artist": "Le Balluche de la Saugrenue",
+        "song_album": "Les petites amourettes - 2011",
+        "song_title": "Fleur de musette",
+        "song_url": "Le Balluche de la Saugrenue/Les petites amourettes - 2011/09 Fleur de musette.mp3",
+        "avatar": "Le Balluche de la Saugrenue/Les petites amourettes - 2011/cover.jpg"
+    },
+    {
+        "song_artist": "Le Balluche de la Saugrenue",
+        "song_album": "Les petites amourettes - 2011",
+        "song_title": "Whispering",
+        "song_url": "Le Balluche de la Saugrenue/Les petites amourettes - 2011/10 Whispering.mp3",
+        "avatar": "Le Balluche de la Saugrenue/Les petites amourettes - 2011/cover.jpg"
+    },
+    {
+        "song_artist": "Le Balluche de la Saugrenue",
+        "song_album": "Les petites amourettes - 2011",
+        "song_title": "Marco le maquereau",
+        "song_url": "Le Balluche de la Saugrenue/Les petites amourettes - 2011/11 Marco le maquereau.mp3",
+        "avatar": "Le Balluche de la Saugrenue/Les petites amourettes - 2011/cover.jpg"
+    },
+    {
+        "song_artist": "Le Balluche de la Saugrenue",
+        "song_album": "Les petites amourettes - 2011",
+        "song_title": "Jean - Jean la Taxe",
+        "song_url": "Le Balluche de la Saugrenue/Les petites amourettes - 2011/12 Jean - Jean la Taxe.mp3",
+        "avatar": "Le Balluche de la Saugrenue/Les petites amourettes - 2011/cover.jpg"
+    },
+    {
+        "song_artist": "Le Balluche de la Saugrenue",
+        "song_album": "Les petites amourettes - 2011",
+        "song_title": "Douce joie",
+        "song_url": "Le Balluche de la Saugrenue/Les petites amourettes - 2011/13 Douce joie.mp3",
+        "avatar": "Le Balluche de la Saugrenue/Les petites amourettes - 2011/cover.jpg"
+    },
+    {
+        "song_artist": "Le Balluche de la Saugrenue",
+        "song_album": "Root's musette - 2010",
+        "song_title": "C'est un petit bal musette",
+        "song_url": "Le Balluche de la Saugrenue/Root's musette - 2010/01 C'est un petit bal musette.mp3",
+        "avatar": "Le Balluche de la Saugrenue/Root's musette - 2010/cover.jpg"
+    },
+    {
+        "song_artist": "Le Balluche de la Saugrenue",
+        "song_album": "Root's musette - 2010",
+        "song_title": "Florent la Bretelle",
+        "song_url": "Le Balluche de la Saugrenue/Root's musette - 2010/02 Florent la Bretelle.mp3",
+        "avatar": "Le Balluche de la Saugrenue/Root's musette - 2010/cover.jpg"
+    },
+    {
+        "song_artist": "Le Balluche de la Saugrenue",
+        "song_album": "Root's musette - 2010",
+        "song_title": "Gallito",
+        "song_url": "Le Balluche de la Saugrenue/Root's musette - 2010/03 Gallito.mp3",
+        "avatar": "Le Balluche de la Saugrenue/Root's musette - 2010/cover.jpg"
+    },
+    {
+        "song_artist": "Le Balluche de la Saugrenue",
+        "song_album": "Root's musette - 2010",
+        "song_title": "TSF",
+        "song_url": "Le Balluche de la Saugrenue/Root's musette - 2010/04 TSF.mp3",
+        "avatar": "Le Balluche de la Saugrenue/Root's musette - 2010/cover.jpg"
+    },
+    {
+        "song_artist": "Le Balluche de la Saugrenue",
+        "song_album": "Root's musette - 2010",
+        "song_title": "Soir de dispute",
+        "song_url": "Le Balluche de la Saugrenue/Root's musette - 2010/05 Soir de dispute.mp3",
+        "avatar": "Le Balluche de la Saugrenue/Root's musette - 2010/cover.jpg"
+    },
+    {
+        "song_artist": "Le Balluche de la Saugrenue",
+        "song_album": "Root's musette - 2010",
+        "song_title": "Jalousie Dub",
+        "song_url": "Le Balluche de la Saugrenue/Root's musette - 2010/06 Jalousie Dub.mp3",
+        "avatar": "Le Balluche de la Saugrenue/Root's musette - 2010/cover.jpg"
+    },
+    {
+        "song_artist": "Le Balluche de la Saugrenue",
+        "song_album": "Root's musette - 2010",
+        "song_title": "J'ai le cafard",
+        "song_url": "Le Balluche de la Saugrenue/Root's musette - 2010/07 J'ai le cafard.mp3",
+        "avatar": "Le Balluche de la Saugrenue/Root's musette - 2010/cover.jpg"
+    },
+    {
+        "song_artist": "Le Balluche de la Saugrenue",
+        "song_album": "Root's musette - 2010",
+        "song_title": "Jahva",
+        "song_url": "Le Balluche de la Saugrenue/Root's musette - 2010/08 Jahva.mp3",
+        "avatar": "Le Balluche de la Saugrenue/Root's musette - 2010/cover.jpg"
+    },
+    {
+        "song_artist": "Le Balluche de la Saugrenue",
+        "song_album": "Root's musette - 2010",
+        "song_title": "Les triolets",
+        "song_url": "Le Balluche de la Saugrenue/Root's musette - 2010/09 Les triolets.mp3",
+        "avatar": "Le Balluche de la Saugrenue/Root's musette - 2010/cover.jpg"
+    },
+    {
+        "song_artist": "Le Balluche de la Saugrenue",
+        "song_album": "Root's musette - 2010",
+        "song_title": "Mon drôle",
+        "song_url": "Le Balluche de la Saugrenue/Root's musette - 2010/10 Mon drôle.mp3",
+        "avatar": "Le Balluche de la Saugrenue/Root's musette - 2010/cover.jpg"
+    },
+    {
+        "song_artist": "Le Balluche de la Saugrenue",
+        "song_album": "Root's musette - 2010",
+        "song_title": "Quand il m'écrit",
+        "song_url": "Le Balluche de la Saugrenue/Root's musette - 2010/11 Quand il m'écrit.mp3",
+        "avatar": "Le Balluche de la Saugrenue/Root's musette - 2010/cover.jpg"
+    },
+    {
+        "song_artist": "Le Balluche de la Saugrenue",
+        "song_album": "Root's musette - 2010",
+        "song_title": "La valse des costauds",
+        "song_url": "Le Balluche de la Saugrenue/Root's musette - 2010/12 La valse des costauds.mp3",
+        "avatar": "Le Balluche de la Saugrenue/Root's musette - 2010/cover.jpg"
+    },
+    {
+        "song_artist": "Le Balluche de la Saugrenue",
+        "song_album": "Tone Of Musette - 2019",
+        "song_title": "Les cabochards",
+        "song_url": "Le Balluche de la Saugrenue/Tone Of Musette - 2019/01 Les cabochards.flac",
+        "avatar": "Le Balluche de la Saugrenue/Tone Of Musette - 2019/cover.jpg"
+    },
+    {
+        "song_artist": "Le Balluche de la Saugrenue",
+        "song_album": "Tone Of Musette - 2019",
+        "song_title": "IL arrive",
+        "song_url": "Le Balluche de la Saugrenue/Tone Of Musette - 2019/02 IL arrive.flac",
+        "avatar": "Le Balluche de la Saugrenue/Tone Of Musette - 2019/cover.jpg"
+    },
+    {
+        "song_artist": "Le Balluche de la Saugrenue",
+        "song_album": "Tone Of Musette - 2019",
+        "song_title": "L'Ostrogoth",
+        "song_url": "Le Balluche de la Saugrenue/Tone Of Musette - 2019/03 L'Ostrogoth.flac",
+        "avatar": "Le Balluche de la Saugrenue/Tone Of Musette - 2019/cover.jpg"
+    },
+    {
+        "song_artist": "Le Balluche de la Saugrenue",
+        "song_album": "Tone Of Musette - 2019",
+        "song_title": "La constante",
+        "song_url": "Le Balluche de la Saugrenue/Tone Of Musette - 2019/04 La constante.flac",
+        "avatar": "Le Balluche de la Saugrenue/Tone Of Musette - 2019/cover.jpg"
+    },
+    {
+        "song_artist": "Le Balluche de la Saugrenue",
+        "song_album": "Tone Of Musette - 2019",
+        "song_title": "Busy Line",
+        "song_url": "Le Balluche de la Saugrenue/Tone Of Musette - 2019/05 Busy Line.flac",
+        "avatar": "Le Balluche de la Saugrenue/Tone Of Musette - 2019/cover.jpg"
+    },
+    {
+        "song_artist": "Le Balluche de la Saugrenue",
+        "song_album": "Tone Of Musette - 2019",
+        "song_title": "Accroche Coeur",
+        "song_url": "Le Balluche de la Saugrenue/Tone Of Musette - 2019/06 Accroche Coeur.flac",
+        "avatar": "Le Balluche de la Saugrenue/Tone Of Musette - 2019/cover.jpg"
+    },
+    {
+        "song_artist": "Le Balluche de la Saugrenue",
+        "song_album": "Tone Of Musette - 2019",
+        "song_title": "Marco Le Maquereau",
+        "song_url": "Le Balluche de la Saugrenue/Tone Of Musette - 2019/07 Marco Le Maquereau.flac",
+        "avatar": "Le Balluche de la Saugrenue/Tone Of Musette - 2019/cover.jpg"
+    },
+    {
+        "song_artist": "Le Balluche de la Saugrenue",
+        "song_album": "Tone Of Musette - 2019",
+        "song_title": "Sacha",
+        "song_url": "Le Balluche de la Saugrenue/Tone Of Musette - 2019/08 Sacha.flac",
+        "avatar": "Le Balluche de la Saugrenue/Tone Of Musette - 2019/cover.jpg"
+    },
+    {
+        "song_artist": "Le Balluche de la Saugrenue",
+        "song_album": "Tone Of Musette - 2019",
+        "song_title": "Concierge Gamberge",
+        "song_url": "Le Balluche de la Saugrenue/Tone Of Musette - 2019/09  Concierge Gamberge.flac",
+        "avatar": "Le Balluche de la Saugrenue/Tone Of Musette - 2019/cover.jpg"
+    },
+    {
+        "song_artist": "Le Balluche de la Saugrenue",
+        "song_album": "Tone Of Musette - 2019",
+        "song_title": "Folies Berberes",
+        "song_url": "Le Balluche de la Saugrenue/Tone Of Musette - 2019/10 Folies Berberes.flac",
+        "avatar": "Le Balluche de la Saugrenue/Tone Of Musette - 2019/cover.jpg"
+    },
+    {
+        "song_artist": "Le Balluche de la Saugrenue",
+        "song_album": "Tone Of Musette - 2019",
+        "song_title": "L'horloger",
+        "song_url": "Le Balluche de la Saugrenue/Tone Of Musette - 2019/11 L'horloger.flac",
+        "avatar": "Le Balluche de la Saugrenue/Tone Of Musette - 2019/cover.jpg"
+    },
+    {
+        "song_artist": "Le Balluche de la Saugrenue",
+        "song_album": "Tone Of Musette - 2019",
+        "song_title": "Sputnik",
+        "song_url": "Le Balluche de la Saugrenue/Tone Of Musette - 2019/12 Sputnik.flac",
+        "avatar": "Le Balluche de la Saugrenue/Tone Of Musette - 2019/cover.jpg"
+    },
+    {
+        "song_artist": "Le Balluche de la Saugrenue",
+        "song_album": "Tone Of Musette - 2019",
+        "song_title": "Bam Bal",
+        "song_url": "Le Balluche de la Saugrenue/Tone Of Musette - 2019/13 Bam Bal.flac",
+        "avatar": "Le Balluche de la Saugrenue/Tone Of Musette - 2019/cover.jpg"
+    },
+    {
+        "song_artist": "Le Balluche de la Saugrenue",
+        "song_album": "Tone Of Musette - 2019",
+        "song_title": "Sacha Remix",
+        "song_url": "Le Balluche de la Saugrenue/Tone Of Musette - 2019/14 Sacha Remix .flac",
+        "avatar": "Le Balluche de la Saugrenue/Tone Of Musette - 2019/cover.jpg"
+    },
+    {
+        "song_artist": "Le Balluche de la Saugrenue",
+        "song_album": "Train Fantasque - 2014",
+        "song_title": "Train fantasque dub",
+        "song_url": "Le Balluche de la Saugrenue/Train Fantasque - 2014/01 Train fantasque dub.flac",
+        "avatar": "Le Balluche de la Saugrenue/Train Fantasque - 2014/cover.jpg"
+    },
+    {
+        "song_artist": "Le Balluche de la Saugrenue",
+        "song_album": "Train Fantasque - 2014",
+        "song_title": "L’hurluberlu",
+        "song_url": "Le Balluche de la Saugrenue/Train Fantasque - 2014/02 L’hurluberlu.flac",
+        "avatar": "Le Balluche de la Saugrenue/Train Fantasque - 2014/cover.jpg"
+    },
+    {
+        "song_artist": "Le Balluche de la Saugrenue",
+        "song_album": "Train Fantasque - 2014",
+        "song_title": "J’ai l’cafard",
+        "song_url": "Le Balluche de la Saugrenue/Train Fantasque - 2014/03 J’ai l’cafard.flac",
+        "avatar": "Le Balluche de la Saugrenue/Train Fantasque - 2014/cover.jpg"
+    },
+    {
+        "song_artist": "Le Balluche de la Saugrenue",
+        "song_album": "Train Fantasque - 2014",
+        "song_title": "Jahva",
+        "song_url": "Le Balluche de la Saugrenue/Train Fantasque - 2014/04 Jahva.flac",
+        "avatar": "Le Balluche de la Saugrenue/Train Fantasque - 2014/cover.jpg"
+    },
+    {
+        "song_artist": "Le Balluche de la Saugrenue",
+        "song_album": "Train Fantasque - 2014",
+        "song_title": "Jean-Jean la taxe",
+        "song_url": "Le Balluche de la Saugrenue/Train Fantasque - 2014/05 Jean-Jean la taxe.flac",
+        "avatar": "Le Balluche de la Saugrenue/Train Fantasque - 2014/cover.jpg"
+    },
+    {
+        "song_artist": "Le Balluche de la Saugrenue",
+        "song_album": "Train Fantasque - 2014",
+        "song_title": "Moi j’m’ennuie",
+        "song_url": "Le Balluche de la Saugrenue/Train Fantasque - 2014/06 Moi j’m’ennuie.flac",
+        "avatar": "Le Balluche de la Saugrenue/Train Fantasque - 2014/cover.jpg"
+    },
+    {
+        "song_artist": "Le Balluche de la Saugrenue",
+        "song_album": "Train Fantasque - 2014",
+        "song_title": "Root’s ma poule",
+        "song_url": "Le Balluche de la Saugrenue/Train Fantasque - 2014/07 Root’s ma poule.flac",
+        "avatar": "Le Balluche de la Saugrenue/Train Fantasque - 2014/cover.jpg"
+    },
+    {
+        "song_artist": "Le Balluche de la Saugrenue",
+        "song_album": "Train Fantasque - 2014",
+        "song_title": "Train fantasque",
+        "song_url": "Le Balluche de la Saugrenue/Train Fantasque - 2014/08 Train fantasque.flac",
+        "avatar": "Le Balluche de la Saugrenue/Train Fantasque - 2014/cover.jpg"
+    },
+    {
+        "song_artist": "Le Balluche de la Saugrenue",
+        "song_album": "Train Fantasque - 2014",
+        "song_title": "Triple patte",
+        "song_url": "Le Balluche de la Saugrenue/Train Fantasque - 2014/09 Triple patte.flac",
+        "avatar": "Le Balluche de la Saugrenue/Train Fantasque - 2014/cover.jpg"
+    },
+    {
+        "song_artist": "Le Balluche de la Saugrenue",
+        "song_album": "Train Fantasque - 2014",
+        "song_title": "Le tango stupéfiant",
+        "song_url": "Le Balluche de la Saugrenue/Train Fantasque - 2014/10 Le tango stupéfiant.flac",
+        "avatar": "Le Balluche de la Saugrenue/Train Fantasque - 2014/cover.jpg"
+    },
+    {
+        "song_artist": "Le Balluche de la Saugrenue",
+        "song_album": "Train Fantasque - 2014",
+        "song_title": "Femme fatale",
+        "song_url": "Le Balluche de la Saugrenue/Train Fantasque - 2014/11 Femme fatale.flac",
+        "avatar": "Le Balluche de la Saugrenue/Train Fantasque - 2014/cover.jpg"
+    },
+    {
+        "song_artist": "Le Balluche de la Saugrenue",
+        "song_album": "Train Fantasque - 2014",
+        "song_title": "Gadjahdelik",
+        "song_url": "Le Balluche de la Saugrenue/Train Fantasque - 2014/12 Gadjahdelik.flac",
+        "avatar": "Le Balluche de la Saugrenue/Train Fantasque - 2014/cover.jpg"
+    },
+    {
+        "song_artist": "Le Balluche de la Saugrenue",
+        "song_album": "Train Fantasque - 2014",
+        "song_title": "Les petites amourettes",
+        "song_url": "Le Balluche de la Saugrenue/Train Fantasque - 2014/13 Les petites amourettes.flac",
+        "avatar": "Le Balluche de la Saugrenue/Train Fantasque - 2014/cover.jpg"
+    },
+    {
+        "song_artist": "Le Balluche de la Saugrenue",
+        "song_album": "Train Fantasque - 2014",
+        "song_title": "Jalousie",
+        "song_url": "Le Balluche de la Saugrenue/Train Fantasque - 2014/14 Jalousie (Dub Version).flac",
+        "avatar": "Le Balluche de la Saugrenue/Train Fantasque - 2014/cover.jpg"
+    },
+    {
+        "song_artist": "Le Balluche de la Saugrenue",
+        "song_album": "Train Fantasque Le Concert - 2016",
+        "song_title": "l'hurluberlu",
+        "song_url": "Le Balluche de la Saugrenue/Train Fantasque Le Concert - 2016/02 l'hurluberlu.mp3",
+        "avatar": "Le Balluche de la Saugrenue/Train Fantasque Le Concert - 2016/cover.jpg"
+    },
+    {
+        "song_artist": "Le Balluche de la Saugrenue",
+        "song_album": "Train Fantasque Le Concert - 2016",
+        "song_title": "le prince charmant",
+        "song_url": "Le Balluche de la Saugrenue/Train Fantasque Le Concert - 2016/03 le prince charmant.mp3",
+        "avatar": "Le Balluche de la Saugrenue/Train Fantasque Le Concert - 2016/cover.jpg"
+    },
+    {
+        "song_artist": "Le Balluche de la Saugrenue",
+        "song_album": "Train Fantasque Le Concert - 2016",
+        "song_title": "les petites amourettes",
+        "song_url": "Le Balluche de la Saugrenue/Train Fantasque Le Concert - 2016/04 les petites amourettes.mp3",
+        "avatar": "Le Balluche de la Saugrenue/Train Fantasque Le Concert - 2016/cover.jpg"
+    },
+    {
+        "song_artist": "Le Balluche de la Saugrenue",
+        "song_album": "Train Fantasque Le Concert - 2016",
+        "song_title": "le drame",
+        "song_url": "Le Balluche de la Saugrenue/Train Fantasque Le Concert - 2016/05 le drame.mp3",
+        "avatar": "Le Balluche de la Saugrenue/Train Fantasque Le Concert - 2016/cover.jpg"
+    },
+    {
+        "song_artist": "Le Balluche de la Saugrenue",
+        "song_album": "Train Fantasque Le Concert - 2016",
+        "song_title": "le tango stupefiant",
+        "song_url": "Le Balluche de la Saugrenue/Train Fantasque Le Concert - 2016/06 le tango stupefiant.mp3",
+        "avatar": "Le Balluche de la Saugrenue/Train Fantasque Le Concert - 2016/cover.jpg"
+    },
+    {
+        "song_artist": "Le Balluche de la Saugrenue",
+        "song_album": "Train Fantasque Le Concert - 2016",
+        "song_title": "j'ai l'cafard",
+        "song_url": "Le Balluche de la Saugrenue/Train Fantasque Le Concert - 2016/07 j'ai l'cafard.mp3",
+        "avatar": "Le Balluche de la Saugrenue/Train Fantasque Le Concert - 2016/cover.jpg"
+    },
+    {
+        "song_artist": "Le Balluche de la Saugrenue",
+        "song_album": "Train Fantasque Le Concert - 2016",
+        "song_title": "Gallito",
+        "song_url": "Le Balluche de la Saugrenue/Train Fantasque Le Concert - 2016/08 Gallito.mp3",
+        "avatar": "Le Balluche de la Saugrenue/Train Fantasque Le Concert - 2016/cover.jpg"
+    },
+    {
+        "song_artist": "Le Balluche de la Saugrenue",
+        "song_album": "Train Fantasque Le Concert - 2016",
+        "song_title": "Accordion Joe",
+        "song_url": "Le Balluche de la Saugrenue/Train Fantasque Le Concert - 2016/09 Accordion Joe.mp3",
+        "avatar": "Le Balluche de la Saugrenue/Train Fantasque Le Concert - 2016/cover.jpg"
+    },
+    {
+        "song_artist": "Le Balluche de la Saugrenue",
+        "song_album": "Train Fantasque Le Concert - 2016",
+        "song_title": "les mots dmods",
+        "song_url": "Le Balluche de la Saugrenue/Train Fantasque Le Concert - 2016/10 les mots dmods.mp3",
+        "avatar": "Le Balluche de la Saugrenue/Train Fantasque Le Concert - 2016/cover.jpg"
+    },
+    {
+        "song_artist": "Le Balluche de la Saugrenue",
+        "song_album": "Train Fantasque Le Concert - 2016",
+        "song_title": "Je cours",
+        "song_url": "Le Balluche de la Saugrenue/Train Fantasque Le Concert - 2016/11 Je cours.mp3",
+        "avatar": "Le Balluche de la Saugrenue/Train Fantasque Le Concert - 2016/cover.jpg"
+    },
+    {
+        "song_artist": "Le Balluche de la Saugrenue",
+        "song_album": "Train Fantasque Le Concert - 2016",
+        "song_title": "jean jean la taxe",
+        "song_url": "Le Balluche de la Saugrenue/Train Fantasque Le Concert - 2016/12 jean jean la taxe.mp3",
+        "avatar": "Le Balluche de la Saugrenue/Train Fantasque Le Concert - 2016/cover.jpg"
+    },
+    {
+        "song_artist": "Le Balluche de la Saugrenue",
+        "song_album": "Train Fantasque Le Concert - 2016",
+        "song_title": "Femme fatale",
+        "song_url": "Le Balluche de la Saugrenue/Train Fantasque Le Concert - 2016/13 Femme fatale.mp3",
+        "avatar": "Le Balluche de la Saugrenue/Train Fantasque Le Concert - 2016/cover.jpg"
+    },
+    {
+        "song_artist": "Le Balluche de la Saugrenue",
+        "song_album": "Train Fantasque Le Concert - 2016",
+        "song_title": "folies berbres",
+        "song_url": "Le Balluche de la Saugrenue/Train Fantasque Le Concert - 2016/14 folies berbres.mp3",
+        "avatar": "Le Balluche de la Saugrenue/Train Fantasque Le Concert - 2016/cover.jpg"
+    },
+    {
+        "song_artist": "Le Balluche de la Saugrenue",
+        "song_album": "Train Fantasque Le Concert - 2016",
+        "song_title": "Gadjahdlik",
+        "song_url": "Le Balluche de la Saugrenue/Train Fantasque Le Concert - 2016/15 Gadjahdlik.mp3",
+        "avatar": "Le Balluche de la Saugrenue/Train Fantasque Le Concert - 2016/cover.jpg"
+    },
+    {
+        "song_artist": "Le Balluche de la Saugrenue",
+        "song_album": "Train Fantasque Le Concert - 2016",
+        "song_title": "Les nocturnes",
+        "song_url": "Le Balluche de la Saugrenue/Train Fantasque Le Concert - 2016/16 Les nocturnes.mp3",
+        "avatar": "Le Balluche de la Saugrenue/Train Fantasque Le Concert - 2016/cover.jpg"
+    },
+    {
+        "song_artist": "Madamirma",
+        "song_album": "Just One for Micki - 2008",
+        "song_title": "I'll see you in my dreams",
+        "song_url": "Madamirma/Just One for Micki - 2008/01 I'll see you in my dreams.mp3",
+        "avatar": "Madamirma/Just One for Micki - 2008/cover.jpg"
+    },
+    {
+        "song_artist": "Madamirma",
+        "song_album": "Just One for Micki - 2008",
+        "song_title": "Je me suis fait tout petit",
+        "song_url": "Madamirma/Just One for Micki - 2008/02 Je me suis fait tout petit.mp3",
+        "avatar": "Madamirma/Just One for Micki - 2008/cover.jpg"
+    },
+    {
+        "song_artist": "Madamirma",
+        "song_album": "Just One for Micki - 2008",
+        "song_title": "Ménilmontant",
+        "song_url": "Madamirma/Just One for Micki - 2008/03 Ménilmontant .mp3",
+        "avatar": "Madamirma/Just One for Micki - 2008/cover.jpg"
+    },
+    {
+        "song_artist": "Madamirma",
+        "song_album": "Just One for Micki - 2008",
+        "song_title": "Valse à Bamboula",
+        "song_url": "Madamirma/Just One for Micki - 2008/04 Valse à Bamboula.mp3",
+        "avatar": "Madamirma/Just One for Micki - 2008/cover.jpg"
+    },
+    {
+        "song_artist": "Madamirma",
+        "song_album": "Just One for Micki - 2008",
+        "song_title": "Just one for Babik",
+        "song_url": "Madamirma/Just One for Micki - 2008/05 Just one for Babik.mp3",
+        "avatar": "Madamirma/Just One for Micki - 2008/cover.jpg"
+    },
+    {
+        "song_artist": "Madamirma",
+        "song_album": "Just One for Micki - 2008",
+        "song_title": "Georgia on my mind",
+        "song_url": "Madamirma/Just One for Micki - 2008/06 Georgia on my mind.mp3",
+        "avatar": "Madamirma/Just One for Micki - 2008/cover.jpg"
+    },
+    {
+        "song_artist": "Quatuor Megamix",
+        "song_album": "La musique de danse de la fin du XXe siècle - 2010",
+        "song_title": "Love Don't Let Me Go",
+        "song_url": "Quatuor Megamix/La musique de danse de la fin du XXe siècle - 2010/01 Love Don't Let Me Go (flutes à bec).mp3",
+        "avatar": "Quatuor Megamix/La musique de danse de la fin du XXe siècle - 2010/cover.jpg"
+    },
+    {
+        "song_artist": "Quatuor Megamix",
+        "song_album": "La musique de danse de la fin du XXe siècle - 2010",
+        "song_title": "Medley Daft Punk",
+        "song_url": "Quatuor Megamix/La musique de danse de la fin du XXe siècle - 2010/02 Medley Daft Punk.mp3",
+        "avatar": "Quatuor Megamix/La musique de danse de la fin du XXe siècle - 2010/cover.jpg"
+    },
+    {
+        "song_artist": "Quatuor Megamix",
+        "song_album": "La musique de danse de la fin du XXe siècle - 2010",
+        "song_title": "Medley Dance 90",
+        "song_url": "Quatuor Megamix/La musique de danse de la fin du XXe siècle - 2010/03 Medley Dance 90.mp3",
+        "avatar": "Quatuor Megamix/La musique de danse de la fin du XXe siècle - 2010/cover.jpg"
+    },
+    {
+        "song_artist": "Quatuor Megamix",
+        "song_album": "La musique de danse de la fin du XXe siècle - 2010",
+        "song_title": "Pop Corn et Pinocchio aux boomwhackers",
+        "song_url": "Quatuor Megamix/La musique de danse de la fin du XXe siècle - 2010/04 Pop Corn et Pinocchio aux boomwhackers.mp3",
+        "avatar": "Quatuor Megamix/La musique de danse de la fin du XXe siècle - 2010/cover.jpg"
+    },
+    {
+        "song_artist": "Quatuor Megamix",
+        "song_album": "La musique de danse de la fin du XXe siècle - 2010",
+        "song_title": "Smells Like Teen Spiritus",
+        "song_url": "Quatuor Megamix/La musique de danse de la fin du XXe siècle - 2010/05 Smells Like Teen Spiritus (Nirvana).mp3",
+        "avatar": "Quatuor Megamix/La musique de danse de la fin du XXe siècle - 2010/cover.jpg"
+    },
+    {
+        "song_artist": "Quatuor Megamix",
+        "song_album": "La passion selon Saint-Thétiseur - 2016",
+        "song_title": "Medley Saint-Thetiseur",
+        "song_url": "Quatuor Megamix/La passion selon Saint-Thétiseur - 2016/01 Medley Saint-Thetiseur.mp3",
+        "avatar": "Quatuor Megamix/La passion selon Saint-Thétiseur - 2016/cover.jpg"
+    },
+    {
+        "song_artist": "Quatuor Megamix",
+        "song_album": "La passion selon Saint-Thétiseur - 2016",
+        "song_title": "Les démons de minuit",
+        "song_url": "Quatuor Megamix/La passion selon Saint-Thétiseur - 2016/02 Les démons de minuit.mp3",
+        "avatar": "Quatuor Megamix/La passion selon Saint-Thétiseur - 2016/cover.jpg"
+    },
+    {
+        "song_artist": "Quatuor Megamix",
+        "song_album": "La passion selon Saint-Thétiseur - 2016",
+        "song_title": "Thriller",
+        "song_url": "Quatuor Megamix/La passion selon Saint-Thétiseur - 2016/03 Thriller (L'Angoisse).mp3",
+        "avatar": "Quatuor Megamix/La passion selon Saint-Thétiseur - 2016/cover.jpg"
+    },
+    {
+        "song_artist": "Quatuor Megamix",
+        "song_album": "La passion selon Saint-Thétiseur - 2016",
+        "song_title": "Eurytmix",
+        "song_url": "Quatuor Megamix/La passion selon Saint-Thétiseur - 2016/04 Eurytmix.mp3",
+        "avatar": "Quatuor Megamix/La passion selon Saint-Thétiseur - 2016/cover.jpg"
+    },
+    {
+        "song_artist": "Quatuor Megamix",
+        "song_album": "La passion selon Saint-Thétiseur - 2016",
+        "song_title": "Medley New Age",
+        "song_url": "Quatuor Megamix/La passion selon Saint-Thétiseur - 2016/05 Medley New Age.mp3",
+        "avatar": "Quatuor Megamix/La passion selon Saint-Thétiseur - 2016/cover.jpg"
+    },
+    {
+        "song_artist": "Quatuor Megamix",
+        "song_album": "La passion selon Saint-Thétiseur - 2016",
+        "song_title": "Les JMJMJ",
+        "song_url": "Quatuor Megamix/La passion selon Saint-Thétiseur - 2016/06 Les JMJMJ (Jean-Michel Jarre).mp3",
+        "avatar": "Quatuor Megamix/La passion selon Saint-Thétiseur - 2016/cover.jpg"
+    },
+    {
+        "song_artist": "Quatuor Megamix",
+        "song_album": "La passion selon Saint-Thétiseur - 2016",
+        "song_title": "La Madonna",
+        "song_url": "Quatuor Megamix/La passion selon Saint-Thétiseur - 2016/07 La Madonna.mp3",
+        "avatar": "Quatuor Megamix/La passion selon Saint-Thétiseur - 2016/cover.jpg"
+    },
+    {
+        "song_artist": "Ygranka",
+        "song_album": "La danse du beau-frère - 2008",
+        "song_title": "Da ili ney",
+        "song_url": "Ygranka/La danse du beau-frère - 2008/01 Da ili ney.flac",
+        "avatar": "Ygranka/La danse du beau-frère - 2008/cover.jpg"
+    },
+    {
+        "song_artist": "Ygranka",
+        "song_album": "La danse du beau-frère - 2008",
+        "song_title": "Pasona kolo",
+        "song_url": "Ygranka/La danse du beau-frère - 2008/02 Pasona kolo.flac",
+        "avatar": "Ygranka/La danse du beau-frère - 2008/cover.jpg"
+    },
+    {
+        "song_artist": "Ygranka",
+        "song_album": "La danse du beau-frère - 2008",
+        "song_title": "Lud",
+        "song_url": "Ygranka/La danse du beau-frère - 2008/03 Lud.flac",
+        "avatar": "Ygranka/La danse du beau-frère - 2008/cover.jpg"
+    },
+    {
+        "song_artist": "Ygranka",
+        "song_album": "La danse du beau-frère - 2008",
+        "song_title": "Pisko",
+        "song_url": "Ygranka/La danse du beau-frère - 2008/04 Pisko.flac",
+        "avatar": "Ygranka/La danse du beau-frère - 2008/cover.jpg"
+    },
+    {
+        "song_artist": "Ygranka",
+        "song_album": "La danse du beau-frère - 2008",
+        "song_title": "Velika Kamenica",
+        "song_url": "Ygranka/La danse du beau-frère - 2008/05 Velika Kamenica (intro).flac",
+        "avatar": "Ygranka/La danse du beau-frère - 2008/cover.jpg"
+    },
+    {
+        "song_artist": "Ygranka",
+        "song_album": "La danse du beau-frère - 2008",
+        "song_title": "Velika Kamenica",
+        "song_url": "Ygranka/La danse du beau-frère - 2008/06 Velika Kamenica.flac",
+        "avatar": "Ygranka/La danse du beau-frère - 2008/cover.jpg"
+    },
+    {
+        "song_artist": "Ygranka",
+        "song_album": "La danse du beau-frère - 2008",
+        "song_title": "Cevapcici",
+        "song_url": "Ygranka/La danse du beau-frère - 2008/07 Cevapcici.flac",
+        "avatar": "Ygranka/La danse du beau-frère - 2008/cover.jpg"
+    },
+    {
+        "song_artist": "Ygranka",
+        "song_album": "La danse du beau-frère - 2008",
+        "song_title": "Arapsko kokonjeste",
+        "song_url": "Ygranka/La danse du beau-frère - 2008/08 Arapsko kokonjeste.flac",
+        "avatar": "Ygranka/La danse du beau-frère - 2008/cover.jpg"
+    },
+    {
+        "song_artist": "Ygranka",
+        "song_album": "La danse du beau-frère - 2008",
+        "song_title": "Mali dupe",
+        "song_url": "Ygranka/La danse du beau-frère - 2008/09 Mali dupe.flac",
+        "avatar": "Ygranka/La danse du beau-frère - 2008/cover.jpg"
+    },
+    {
+        "song_artist": "Ygranka",
+        "song_album": "La danse du beau-frère - 2008",
+        "song_title": "Belgrade la blanche",
+        "song_url": "Ygranka/La danse du beau-frère - 2008/10 Belgrade la blanche.flac",
+        "avatar": "Ygranka/La danse du beau-frère - 2008/cover.jpg"
+    },
+    {
+        "song_artist": "Ygranka",
+        "song_album": "La danse du beau-frère - 2008",
+        "song_title": "Nikad prvi put",
+        "song_url": "Ygranka/La danse du beau-frère - 2008/11 Nikad prvi put.flac",
+        "avatar": "Ygranka/La danse du beau-frère - 2008/cover.jpg"
+    },
+    {
+        "song_artist": "Ygranka",
+        "song_album": "La danse du beau-frère - 2008",
+        "song_title": "Kristina",
+        "song_url": "Ygranka/La danse du beau-frère - 2008/12 Kristina.flac",
+        "avatar": "Ygranka/La danse du beau-frère - 2008/cover.jpg"
+    },
+    {
+        "song_artist": "Ygranka",
+        "song_album": "La danse du beau-frère - 2008",
+        "song_title": "Mekam cocek",
+        "song_url": "Ygranka/La danse du beau-frère - 2008/13 Mekam cocek.flac",
+        "avatar": "Ygranka/La danse du beau-frère - 2008/cover.jpg"
+    },
+    {
+        "song_artist": "Ygranka",
+        "song_album": "La danse du beau-frère - 2008",
+        "song_title": "Kadifka",
+        "song_url": "Ygranka/La danse du beau-frère - 2008/14 Kadifka.flac",
+        "avatar": "Ygranka/La danse du beau-frère - 2008/cover.jpg"
+    },
+    {
+        "song_artist": "Ygranka",
+        "song_album": "Le Tacot de Jeremia - 2014",
+        "song_title": "Agyrkanhoro",
+        "song_url": "Ygranka/Le Tacot de Jeremia - 2014/01 Agyrkanhoro.flac",
+        "avatar": "Ygranka/Le Tacot de Jeremia - 2014/cover.jpg"
+    },
+    {
+        "song_artist": "Ygranka",
+        "song_album": "Le Tacot de Jeremia - 2014",
+        "song_title": "Kolo 244",
+        "song_url": "Ygranka/Le Tacot de Jeremia - 2014/02 Kolo 244.flac",
+        "avatar": "Ygranka/Le Tacot de Jeremia - 2014/cover.jpg"
+    },
+    {
+        "song_artist": "Ygranka",
+        "song_album": "Le Tacot de Jeremia - 2014",
+        "song_title": "Duduk",
+        "song_url": "Ygranka/Le Tacot de Jeremia - 2014/03 Duduk.flac",
+        "avatar": "Ygranka/Le Tacot de Jeremia - 2014/cover.jpg"
+    },
+    {
+        "song_artist": "Ygranka",
+        "song_album": "Le Tacot de Jeremia - 2014",
+        "song_title": "50 Dinars",
+        "song_url": "Ygranka/Le Tacot de Jeremia - 2014/04 50 Dinars.flac",
+        "avatar": "Ygranka/Le Tacot de Jeremia - 2014/cover.jpg"
+    },
+    {
+        "song_artist": "Ygranka",
+        "song_album": "Le Tacot de Jeremia - 2014",
+        "song_title": "Lara",
+        "song_url": "Ygranka/Le Tacot de Jeremia - 2014/05 Lara.flac",
+        "avatar": "Ygranka/Le Tacot de Jeremia - 2014/cover.jpg"
+    },
+    {
+        "song_artist": "Ygranka",
+        "song_album": "Le Tacot de Jeremia - 2014",
+        "song_title": "Le Tacot de Jeremia",
+        "song_url": "Ygranka/Le Tacot de Jeremia - 2014/06 Le Tacot de Jeremia.flac",
+        "avatar": "Ygranka/Le Tacot de Jeremia - 2014/cover.jpg"
+    },
+    {
+        "song_artist": "Ygranka",
+        "song_album": "Le Tacot de Jeremia - 2014",
+        "song_title": "Rakija",
+        "song_url": "Ygranka/Le Tacot de Jeremia - 2014/07 Rakija.flac",
+        "avatar": "Ygranka/Le Tacot de Jeremia - 2014/cover.jpg"
+    },
+    {
+        "song_artist": "Ygranka",
+        "song_album": "Le Tacot de Jeremia - 2014",
+        "song_title": "Le Clonck",
+        "song_url": "Ygranka/Le Tacot de Jeremia - 2014/08 Le Clonck.flac",
+        "avatar": "Ygranka/Le Tacot de Jeremia - 2014/cover.jpg"
+    },
+    {
+        "song_artist": "Ygranka",
+        "song_album": "Le Tacot de Jeremia - 2014",
+        "song_title": "Blues Carre a la Vitch",
+        "song_url": "Ygranka/Le Tacot de Jeremia - 2014/09 Blues Carre a la Vitch.flac",
+        "avatar": "Ygranka/Le Tacot de Jeremia - 2014/cover.jpg"
+    },
+    {
+        "song_artist": "Ygranka",
+        "song_album": "Le Tacot de Jeremia - 2014",
+        "song_title": "Ring Ring",
+        "song_url": "Ygranka/Le Tacot de Jeremia - 2014/10 Ring Ring.flac",
+        "avatar": "Ygranka/Le Tacot de Jeremia - 2014/cover.jpg"
     }
-]
+].map(value=>({value,sort:Math.random()})).sort((a,b)=>a.sort-b.sort).map(({value})=>value)
 
-export default peeps_data
+export default peeps_data;

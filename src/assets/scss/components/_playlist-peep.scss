@@ -162,14 +162,14 @@ $color-alpha-darken: darken( $color-alpha, 15);
     margin: 0 auto;
     border-radius: 100%;
     overflow: hidden;
-    filter: grayscale(100%);
+    filter: grayscale(50%);
     transform: scale(1);
     transition: transform 0.5s $ease-in-out-back;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
 
     .is-playing & {
-      filter: grayscale(50%);
+      filter: grayscale(10%);
       border: 5px solid rgba(255, 255, 255, 0.6);
       // background: linear-gradient(to right, $color-alpha-lighten, $color-alpha-darken);
       transform: scale(0.6);
