@@ -9,7 +9,6 @@ const GooEqualizer = (() => {
 
   // bail if browser lacks audioContext
   if (!window.AudioContext) return;
-
   const audio       = document.querySelector('#js-audio')
   let audioContext  = new(window.AudioContext || window.webkitAudioContext)
   let source        = audioContext.createMediaElementSource(audio)

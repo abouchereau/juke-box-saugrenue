@@ -102,6 +102,7 @@ GooPlayer.prototype = {
    * @since v1.2 - using audioContext.resume
    */
   playPause(el, group) {
+    console.log("payPause")
     // audioContext.resume() // Critical for Chrome 71
     this.audio.load()
 
@@ -128,6 +129,7 @@ GooPlayer.prototype = {
 
     // On Play Listener
     this.audio.onplay = () => {
+      console.log("ON PLAY");
       this.play()
     }
 
@@ -147,6 +149,7 @@ GooPlayer.prototype = {
    * Adds 'is-playing' class, starts MusicEqualizer
    */
   play() {
+    console.log("play");
     let active = document.querySelector('.is-playing')
 
     if (active) {
@@ -154,8 +157,10 @@ GooPlayer.prototype = {
     }
     this.peeps[this.currentSong].classList.add('is-playing')
     this.audio.play()
+
+    console.log("play 2 ");
     this.isPlaying = true
-    GooEqualizer.startEqualizer()
+   // GooEqualizer.startEqualizer()
   },
 
   /**
