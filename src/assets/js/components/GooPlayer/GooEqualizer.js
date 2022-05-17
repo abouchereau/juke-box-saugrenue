@@ -5,22 +5,34 @@
  * output of frequency data as fftSize array which we use to
  * create Equalizer animation of y Axis transforms.
  */
+
 const GooEqualizer = (() => {
 
   // bail if browser lacks audioContext
   if (!window.AudioContext) return;
   const audio       = document.querySelector('#js-audio')
-  let audioContext  = new(window.AudioContext || window.webkitAudioContext)
-  let source        = audioContext.createMediaElementSource(audio)
-  let analyser      = audioContext.createAnalyser()
-  let bufferLength  = analyser.frequencyBinCount
-  let frequencyData = new Uint8Array(bufferLength)
+  let audioContext  = null;//new(window.AudioContext || window.webkitAudioContext)
+  let source        = null;//audioContext.createMediaElementSource(audio)
+  let analyser      = null;//audioContext.createAnalyser()
+  let bufferLength  = null;//analyser.frequencyBinCount
+  let frequencyData = null;//new Uint8Array(bufferLength)
   let bars = []
   let raf
 
   return {
 
     setup() {
+      if (audioContext == null) {
+        audioContext = new (window.AudioContext || window.webkitAudioContext)
+        source        = audioContext.createMediaElementSource(audio)
+        analyser      = audioContext.createAnalyser()
+        bufferLength  = analyser.frequencyBinCount
+        frequencyData = new Uint8Array(bufferLength)
+
+      }
+
+
+
       this.connectAnalyser()
       this.setupEqualizer()
     },

@@ -149,7 +149,6 @@ GooPlayer.prototype = {
    * Adds 'is-playing' class, starts MusicEqualizer
    */
   play() {
-    console.log("play");
     let active = document.querySelector('.is-playing')
 
     if (active) {
@@ -158,9 +157,10 @@ GooPlayer.prototype = {
     this.peeps[this.currentSong].classList.add('is-playing')
     this.audio.play()
 
-    console.log("play 2 ");
     this.isPlaying = true
-   // GooEqualizer.startEqualizer()
+    setTimeout(()=> {
+      GooEqualizer.startEqualizer();
+    },500);
   },
 
   /**
