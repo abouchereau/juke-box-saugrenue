@@ -16,6 +16,10 @@ const BrowserNotice = (() => {
 
     init: function() {
       this.bindEvents()
+      let safeMode = new URL(window.location.href).searchParams.get("safeMode");
+      if (safeMode != null && safeMode=="1")  {
+        html.classList.add("safe-mode");
+      }
     },
 
     bindEvents: function() {

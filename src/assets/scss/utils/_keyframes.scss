@@ -77,3 +77,9 @@
 //   50% { transform: translate3d(0px,500px,0)}
 // 100% { transform: translate3d(110px,1000px,0) }
 // }
+
+
+
+.safe-mode * {
+  transition: none !important;
+}

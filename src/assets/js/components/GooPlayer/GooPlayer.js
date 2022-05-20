@@ -158,9 +158,12 @@ GooPlayer.prototype = {
     this.audio.play()
 
     this.isPlaying = true
-    setTimeout(()=> {
-      GooEqualizer.startEqualizer();
-    },500);
+    let safeMode = new URL(window.location.href).searchParams.get("safeMode");
+    if (safeMode == null || safeMode!="1")  {
+        setTimeout(()=> {
+            GooEqualizer.startEqualizer();
+        },1000);
+    }
   },
 
   /**
