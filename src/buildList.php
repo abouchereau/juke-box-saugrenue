@@ -1,6 +1,6 @@
 <?php
 
-define('ZIKDIR', 'D:\audio');
+define('ZIKDIR', 'C:\Users\abc\www\node\juke-box-saugrenue\dist\assets\audio');
 
 $peeps_data = [];
 
@@ -33,9 +33,9 @@ foreach ($dirs as $dir) {
 
 	}
 }
-$str = 'let peeps_data = ';
+$str = 'let albumLimit = new URL(window.location.href).searchParams.get("albumLimit");const MAX_TITLE_ALBUM=albumLimit!=null?parseInt(albumLimit):3;let titleCount={};let peeps_data = ';
 $str .= json_encode($peeps_data,  JSON_UNESCAPED_SLASHES|JSON_UNESCAPED_UNICODE|JSON_PRETTY_PRINT);
-$str .= '.map(value=>({value,sort:Math.random()})).sort((a,b)=>a.sort-b.sort).map(({value})=>value)';
+$str .= '.map(value=>({value,sort:Math.random()})).sort((a,b)=>a.sort-b.sort).map(({value})=>value).filter(a=>{if(titleCount[a.song_album]==null){titleCount[a.song_album]=0;};titleCount[a.song_album]++;return titleCount[a.song_album]<=MAX_TITLE_ALBUM;})';
 $str .= '
 
 export default peeps_data;';
