@@ -5,7 +5,13 @@ import PlyrUI from './PlyrUI.js'
 Peeps.init()
 PlyrUI.init()
 
-setTimeout(function(){
-  let Goo = new GooPlayer();
+var timeoutDelay =1200;
+var safeMode = new URL(window.location.href).searchParams.get("safeMode");
+if (safeMode != null && safeMode == "1") {
+  timeoutDelay = 2500;
+}
+
+setTimeout(function() {
+  var Goo = new _GooPlayer["default"]();
   Goo.init();
-}, 1200)
+}, timeoutDelay);
